@@ -1,0 +1,1611 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+:root {
+    --min-color: #fff;
+    --secand: hsl(30, 41%, 63%);
+    --third: #000;
+    --four: gray
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.65;
+    width: 100%
+}
+
+button {
+    color: #fff;
+    background: #c7a17a;
+    height: 50px;
+    border-radius: 7px;
+    width: 150px
+}
+
+a {
+    color: wheat;
+    text-decoration: none
+}
+
+header .icon {
+    width: 197px
+}
+
+.first-div {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_01.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    width: 100%;
+    background-color: #12100d
+}
+
+.first-div header {
+    display: grid;
+    z-index: 1000;
+    grid-template-columns: 15% 77%;
+    grid-gap: 32px;
+    align-items: center;
+    position: fixed;
+    background: #000
+}
+
+.first-div header .left li:nth-child(1) {
+    display: none
+}
+
+.first-div .fristnav {
+    display: grid;
+    color: #fff;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end
+}
+
+.first-div .fristnav ul {
+    display: grid;
+    margin: 16 px 0 px;
+    grid-template-columns: 14% 15% 13% 14% 15% 27%;
+    font-size: 27px;
+    font-weight: 700;
+    align-items: center
+}
+
+.first-div .fristnav .left {
+    margin: 14px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.fristnav .left li {
+    width: 100px;
+    position: relative
+}
+
+.fristnav .left li .fas {
+    font-size: 23px;
+    color: var(--secand)
+}
+
+.first-div .fristnav .left li small {
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    background: var(--secand);
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%
+}
+
+.fristnav .left a {
+    width: 120px
+}
+
+.fristnav .left a button {
+    color: #fff;
+    background: #c7a17a;
+    height: 50px;
+    border-radius: 7px;
+    width: 150px
+}
+
+.fristnav .left li small {
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    background: var(--secand)
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    margin: 0;
+    padding: 0
+}
+
+.img {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/slider/img_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 704px;
+    width: 95%;
+    margin: 0 auto
+}
+
+.img h3 {
+    font-size: 92px;
+    color: #fff;
+    font-family: fantasy;
+    width: 60%;
+    padding: 210px 0 0 70px
+}
+
+.img p {
+    color: #fff;
+    font-size: 25px;
+    width: 68%;
+    padding: 0 0 0 74px
+}
+
+.img ul {
+    display: flex;
+    padding: 7px 0 0 61px
+}
+
+.img ul li {
+    padding: 0 20px;
+    width: 160px
+}
+
+.img ul li a {
+    width: 120px
+}
+
+.img ul li a button {
+    color: #fff;
+    background: #c7a17a;
+    height: 50px;
+    border-radius: 7px;
+    width: 150px
+}
+
+.clume1 {
+    display: flex
+}
+
+.socil {
+    display: flex;
+    width: 30%;
+    color: #fff
+}
+
+.socil li {
+    padding: 55px 0
+}
+
+.socil li i {
+    display: contents;
+    padding: 0
+}
+
+.clume1 .play-video {
+    color: #fff;
+    justify-content: end
+}
+
+.play-video span {
+    padding: 23px 57px 0 0
+}
+
+.clume1 .play-video i {
+    padding: 0 40px 10px 33px
+}
+
+.sec-div ul {
+    width: 100%;
+    display: flex;
+    padding: 99px
+}
+
+.sec-div h6 {
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px
+}
+
+.sec-div p {
+    color: #7c7770;
+    font-family: Roboto, sans-serif
+}
+
+.sec-div ul li {
+    padding-top: 80px;
+    padding-right: 70px;
+    width: calc(100%/4)
+}
+
+.sec-div span {
+    padding: 38px
+}
+
+.sec-div ul li p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.65;
+    font-style: normal;
+    color: #7c7770;
+    font-family: Roboto, sans-serif;
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+.sec-div ul img {
+    width: auto;
+    background-color: #eceae3
+}
+
+.about-us {
+    display: flex;
+    padding: 0 10% 120px
+}
+
+.about-us i {
+    color: #c7a079;
+    padding: 0 10px 8px 0;
+    width: 34px
+}
+
+h4 {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    display: contents
+}
+
+.about-us h2 {
+    font-size: x-large;
+    font-weight: 900;
+    color: #1b1b1b;
+    font-weight: 700;
+    font-family: Oswald, sans-serif
+}
+
+.about-us p {
+    color: #7c7770
+}
+
+.about-us input {
+    width: 17px
+}
+
+.about-us label {
+    font-weight: 700;
+    color: #1b1b1b;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif
+}
+
+.about-us a button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.about-us .butandpic {
+    padding: 36px 0;
+    display: flex
+}
+
+.about-us span {
+    flex-direction: column;
+    padding: 0 77px 0
+}
+
+.about-us span img {
+    width: 50px;
+    border-radius: 20px
+}
+
+.motion {
+    display: flex
+}
+
+.motion img:nth-child(2) {
+    width: 258px;
+    top: 1380px;
+    z-index: 5;
+    right: 304px;
+    position: absolute
+}
+
+.motion .fine {
+    top: 1424px;
+    color: #deb887;
+    width: 20px;
+    font-size: 27px;
+    font-weight: 800;
+    right: 458px;
+    z-index: 15;
+    position: absolute
+}
+
+.OUR-MENU {
+    display: flex;
+    flex-direction: column
+}
+
+.OUR-MENU {
+    background-color: #eceae3
+}
+
+.active {
+    background: var(--secand)
+}
+
+.hide {
+    display: none!important
+}
+
+.OUR-MENU .all {
+    padding: 0 10%;
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/menu/shape_01.png);
+    background-repeat: no-repeat
+}
+
+.all p {
+    width: 22%;
+    margin: 147px auto 0;
+    display: flex
+}
+
+.all p i {
+    color: #c7a079;
+    padding: 0 10px 8px 0;
+    width: 34px
+}
+
+.all .fas {
+    font-weight: 900;
+    font-size: large
+}
+
+.all h3 {
+    width: 77%;
+    padding: 0 56px 0 228px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 0
+}
+
+.all ul {
+    display: flex;
+    padding: 29px 92px 0 193px
+}
+
+.all li {
+    padding-bottom: 30px
+}
+
+.all ul li a {
+    color: #000;
+    font-weight: bolder;
+    font-size: 18px
+}
+
+.price {
+    padding: 0 20%;
+    display: grid;
+    padding-bottom: 60px;
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/menu/shape_02.png);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+.price .one {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 80% 20%
+}
+
+.price div div {
+    display: grid;
+    grid-template-areas: 'img header''img prag'
+}
+
+.price img {
+    height: auto;
+    padding: 12px;
+    grid-area: img
+}
+
+.price .one div h2 {
+    grid-area: header;
+    font-weight: 700;
+    padding: 19px 0 0 3px;
+    color: #1b1b1b;
+    font-family: Oswald, sans-serif
+}
+
+.price div p {
+    grid-area: prag;
+    padding-bottom: 23px
+}
+
+.price .one div strong {
+    color: var(--secand);
+    font-weight: bolder;
+    font-size: xxx-large;
+    padding: 38px 48px;
+    font-size: 60px;
+    line-height: 1
+}
+
+.price .one div strong sub {
+    color: #000;
+    font-weight: bolder
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: 30% 70%
+}
+
+.offer .vid {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.offer .parent {
+    display: grid
+}
+
+.offer .all2 {
+    display: grid;
+    grid-template-columns: 60% 38%;
+    padding: 40px
+}
+
+.offer .all3 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%
+}
+
+.offer .pic-coffee {
+    padding: 10% 10% 0 39px;
+    line-height: 1;
+    font-size: 28px;
+    FONT-WEIGHT: BOLD;
+    font-weight: 700;
+    font-family: Roboto, sans-serif
+}
+
+.offer .pic-coffee .fas {
+    display: contents;
+    color: var(--secand)
+}
+
+.offer .pic-coffee p {
+    display: contents;
+    font-size: 15px;
+    font-weight: 700
+}
+
+.pic-coffee h3 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-weight: 700
+}
+
+.offer .picco {
+    padding: 18% 0 0 0
+}
+
+.offer .all3 .table {
+    padding: 45px;
+    background-color: #eceae3
+}
+
+.all3 .table h3 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.table .far {
+    font-size: 20px
+}
+
+.table .table2 .fas {
+    color: var(--secand);
+    background-color: #fff;
+    width: 12%;
+    font-size: 19px;
+    padding: 13px 28px 8px 9px;
+    margin-right: 7px
+}
+
+.table .table2 p {
+    width: 78%;
+    font-weight: 900;
+    display: inline-table
+}
+
+.offer .opening {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/offer/bg_01.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    list-style: none;
+    padding: 28px;
+    margin-bottom: 10%
+}
+
+.opening h3 {
+    font-size: 22px;
+    font-weight: 600;
+    width: 57%;
+    display: contents
+}
+
+.opening i {
+    width: 20%;
+    font-size: 25px;
+    padding-bottom: 23px
+}
+
+.opening li {
+    font-weight: 700
+}
+
+.offer .opening li span {
+    float: right;
+    color: #c7a17a;
+    width: 30%;
+    font-weight: 500
+}
+
+.offer .friday {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/offer/img_03.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-color: #eceae3;
+    margin-bottom: 11%
+}
+
+.offer .friday h3 {
+    display: flex;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 1% 29%
+}
+
+.offer .friday .fa-gift {
+    display: flex;
+    font-size: 23px;
+    font-weight: 600
+}
+
+.our-clint {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-repeat: no-repeat
+}
+
+.our-clint .fa-coffee {
+    width: 5%;
+    color: var(--secand);
+    font-size: 15px
+}
+
+.our-clint h5 {
+    font-size: 20px;
+    font-weight: 600;
+    display: contents
+}
+
+.our-clint h3 {
+    font-size: xxx-large;
+    font-weight: 700
+}
+
+.our-clint .client .icon {
+    display: grid;
+    padding-bottom: 12%;
+    grid-template-columns: 80% 20%
+}
+
+.our-clint .client .icon p {
+    font-size: 17px
+}
+
+.our-clint .client .icon .icon1 {
+    width: auto;
+    height: max-content
+}
+
+.our-clint .pic {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_02.png);
+    background-repeat: no-repeat;
+    display: inline-grid;
+    padding: 15%
+}
+
+.our-clint .pic .small {
+    width: auto;
+    z-index: 10;
+    padding: 15%;
+    position: absolute
+}
+
+.our-clint .pic .img-big {
+    z-index: 2;
+    position: relative
+}
+
+.client p {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    float: left
+}
+
+.client ul {
+    display: flex;
+    width: 12%;
+    margin: 0;
+    padding: 0;
+    color: var(--secand)
+}
+
+.client span {
+    float: left;
+    color: var(--secand);
+    font-weight: 700
+}
+
+.client img {
+    padding: 16%;
+    width: auto
+}
+
+.popular {
+    background-color: #e5e5e5
+}
+
+.popular11 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10% 14% 0 14%
+}
+
+.popular11 .spe .fa-coffee {
+    width: auto;
+    font-size: 15px;
+    padding: 5px;
+    color: #c7a079
+}
+
+.popular11 .spe span {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.popular11 .spe h2 {
+    font-size: 34px;
+    font-weight: 600
+}
+
+.butt a .contactus {
+    float: right;
+    width: 200px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #eceae3
+}
+
+.product1 {
+    background-color: #e5e5e5;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    padding: 5% 5% 5% 5%;
+    justify-content: center
+}
+
+.product1 div {
+    margin: 3%;
+    background-color: #fff;
+    border: 14px solid #fff
+}
+
+.product1 div .zeroo {
+    background: border-box;
+    background-color: #e5e5e5
+}
+
+.product1 .fa-heart {
+    width: auto;
+    padding: 2% 2% 2% 2%;
+    margin: 3%;
+    background-color: #fff;
+    color: #000
+}
+
+.product1 .fa-share-alt {
+    float: right;
+    width: auto;
+    padding: 2% 2% 2% 2%;
+    margin: 3%;
+    background-color: #fff;
+    color: #000
+}
+
+.product1 div a img {
+    width: auto;
+    padding: 0 28%
+}
+
+.product1 div p {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff
+}
+
+.product1 div .three {
+    background-color: #fff
+}
+
+.product1 div a .dolar {
+    width: 100px;
+    height: 37px
+}
+
+.product1 div a .add {
+    background-color: #fff;
+    color: #000;
+    width: 113px;
+    font-size: 12px;
+    float: right;
+    font-weight: 700;
+    height: 41px
+}
+
+.news {
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_03.png);
+    background-repeat: no-repeat;
+    padding-bottom: 10%
+}
+
+.news .fa-coffee {
+    width: auto;
+    padding: 13% 0 0 43%;
+    color: var(--secand)
+}
+
+.news span {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1%
+}
+
+.news h3 {
+    padding: 0 32%;
+    font-size: xxx-large
+}
+
+.news .news1 {
+    display: grid;
+    grid-template-columns: 33% 33% 31%
+}
+
+.news .news1 img {
+    width: auto;
+    padding: 0;
+    display: block
+}
+
+.news .news1 div {
+    padding: 10%;
+    background-color: #fff
+}
+
+.news1 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 12% 0 63px;
+    color: var(--secand);
+    display: block;
+    width: auto
+}
+
+.news1 p {
+    padding: 0 0 0 16%;
+    font-size: 15px
+}
+
+.news1 div a {
+    font-size: 20px;
+    padding: 16%;
+    color: #debb3d;
+    font-weight: 700;
+    width: auto
+}
+
+.news .bli {
+    padding: 0 40%
+}
+
+.news .bli .see {
+    color: #000;
+    height: 50px;
+    background-color: none;
+    border-radius: 7px;
+    width: 205px;
+    font-weight: 700;
+    font-size: large;
+    background-color: unset
+}
+
+.news1 .fa-angle-double-right {
+    font-size: 20px;
+    color: #debb3d;
+    font-weight: 700;
+    width: auto
+}
+
+footer {
+    background-size: cover;
+    color: #fff;
+    background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_05.png);
+    background-repeat: no-repeat
+}
+
+footer p {
+    padding: 9% 0 5% 38%;
+    font-size: xx-large;
+    font-weight: 700
+}
+
+footer input {
+    margin: 0 0 0 39%;
+    width: 21%;
+    background-color: #000;
+    color: #000;
+    color: #fff;
+    border-color: #1b1b1b;
+    background-color: #1b1b1b;
+    padding: 10px 25px
+}
+
+footer .end-site {
+    display: grid;
+    grid-template-columns: 21% 28% 19% 38%;
+    padding: 4% 10% 0
+}
+
+footer .cafenod p {
+    padding: 0;
+    font-size: inherit;
+    font-weight: unset
+}
+
+footer .cafenod img,
+i {
+    width: auto
+}
+
+footer .cafenod i {
+    padding: 8px 8px;
+    margin-inline: 3px;
+    color: var(--secand);
+    background-color: #000
+}
+
+footer .contact2 h2 {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 10%
+}
+
+footer .contact2 ul li {
+    padding-bottom: 3%;
+    font-size: 16px;
+    font-weight: 700
+}
+
+footer .recent ul li img {
+    width: auto;
+    padding: 0 0 16px 0
+}
+
+footer .hours2 h3 {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 10%
+}
+
+footer .hours2 ul li span {
+    float: right;
+    width: auto
+}
+
+footer .recent {
+    padding: 0 0 0 11%
+}
+
+footer .recent p {
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 0 0 0 1%
+}
+
+footer .recent div {
+    display: grid;
+    grid-template-rows: 0% 30% 33%
+}
+
+footer .recent div img {
+    width: auto
+}
+
+footer .recent div h5 {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 2px 21%;
+    width: 77%
+}
+
+footer .recent div span {
+    display: block;
+    padding: 0 22%;
+    color: #deb887;
+    font-size: 15px;
+    font-weight: 700
+}
+
+footer .end {
+    padding: 8% 0 3% 36%
+}
+
+footer .end h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--min-color)
+}
+
+@media (max-width:1200px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width: 100%
+    }
+    .first-div {
+        background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_01.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        width: 100%;
+        background-color: #12100d
+    }
+    .first-div header {
+        display: grid;
+        z-index: 1000;
+        grid-template-columns: 20% 78%;
+        grid-gap: 20px;
+        align-items: center;
+        position: fixed;
+        background: #000
+    }
+    header {
+        display: grid
+    }
+    header .icon {
+        width: 191px
+    }
+    .first-div .fristnav {
+        grid-column-gap: 8%;
+        grid-template-columns: 61% 20%
+    }
+    .fristnav ul {
+        list-style: none;
+        display: grid;
+        margin: 16px 0;
+        grid-template-columns: 14% 15% 13% 14% 15% 27%;
+        font-size: 27px;
+        font-weight: 700;
+        align-items: center
+    }
+    .first-div .fristnav .left {
+        margin: 14 px 0 px;
+        display: grid;
+        grid-template-columns: 30% 30% 40%;
+        justify-content: revert;
+        align-items: center
+    }
+    .fristnav .left li {
+        width: auto;
+        position: relative
+    }
+    .first-div .fristnav .left li small {
+        position: absolute;
+        top: -10 px;
+        left: 15 px;
+        background: var(--secand);
+        text-align: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%
+    }
+    .fristnav .left a {
+        width: 136px
+    }
+    .fristnav .left a button {
+        width: 145px
+    }
+    .first-div .img {
+        background-image: url(https://xpressrow.com/html/cafenod/assets/images/slider/img_01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 98%;
+        margin: 0 auto;
+        padding: 25px 3%
+    }
+    .first-div .img h3 {
+        width: 59%;
+        margin: 0;
+        padding: 8% 1% 0 2%;
+        font-weight: 500;
+        font-size: 66px
+    }
+    .first-div .img p {
+        width: 66%;
+        padding: 1% 1% 0 2%
+    }
+    .img ul {
+        display: flex;
+        padding: 6px 0 0 28px
+    }
+    .first-div .img ul li a button:nth-child(2) {
+        background: #696969
+    }
+    .clume1 {
+        display: grid;
+        grid-template-columns: 93% 20%
+    }
+    .socil {
+        display: flex;
+        width: 42%;
+        color: #fff;
+        padding: 0 0 0 9px
+    }
+    .socil li {
+        padding: 22px 0
+    }
+    .play-video {
+        display: flex;
+        width: 20%
+    }
+    .play-video span {
+        padding: 12px 57px 0 0
+    }
+    .clume1 .play-video i {
+        padding: 18px 33px 6px 26px
+    }
+    .sec-div ul {
+        width: 100%;
+        display: flex;
+        padding: 72px
+    }
+    .about-us {
+        display: flex;
+        padding: 0 2% 36px
+    }
+    .about-us span {
+        flex-direction: column;
+        padding: 0 19px 0
+    }
+    .motion img:nth-child(2) {
+        width: 256px;
+        top: 360%;
+        z-index: 5;
+        right: 11%;
+        position: absolute
+    }
+    .motion .fine {
+        top: 375%;
+        color: #deb887;
+        width: 20px;
+        font-size: 27px;
+        font-weight: 800;
+        right: 27%;
+        z-index: 15;
+        position: absolute
+    }
+    .all h3 {
+        width: 94%;
+        padding: 0 56px 0 134px
+    }
+    .all ul {
+        display: flex;
+        padding: 31px 70px 0 0
+    }
+    .price {
+        padding: 0 8%
+    }
+    .offer .all2 {
+        grid-template-columns: 71% 28%
+    }
+    .offer .all3 {
+        display: block;
+        grid-template-columns: 32% 30% 40%
+    }
+    .all3 .table h3 {
+        display: contents
+    }
+    .table .table2 .fas {
+        width: 9%;
+        font-size: 21px;
+        padding: 3%;
+        margin: 1%;
+        margin-right: 8%
+    }
+    .table2 a {
+        margin: 6px
+    }
+    .table2 a button {
+        margin: 9px 0 0 0
+    }
+    .offer .opening {
+        background-size: cover;
+        margin-bottom: 1%
+    }
+    .offer .friday {
+        height: 31%;
+        margin-bottom: 32%
+    }
+    .client {
+        padding: 24% 0 0;
+        margin-left: -41px
+    }
+    .our-clint .pic .small {
+        width: 35%;
+        z-index: 10;
+        padding: 14% 0 0 10%;
+        position: absolute
+    }
+    .client img {
+        padding: 2%
+    }
+    .popular11 {
+        padding: 11% 1% 0 3%
+    }
+    .product1 div a img {
+        padding: 0 16%
+    }
+    .product1 div p {
+        font-size: 15px
+    }
+    .news h3 {
+        padding: 0 19% 0 31%
+    }
+    .news .news1 {
+        display: grid;
+        grid-template-columns: 33% 33% 31%
+    }
+    .news .news1 div {
+        padding: 0;
+        background-color: #fff
+    }
+    .news1 h4 {
+        padding: 0 12% 0 17px
+    }
+    .news1 p {
+        padding: 0 0 0 4%;
+        font-size: 15px
+    }
+    .news1 div a {
+        padding: 4%
+    }
+    .news .news1 img {
+        width: auto;
+        padding: 0 2%;
+        display: block
+    }
+    .news1 .bli .see {
+        margin: 9% 0 0
+    }
+    footer .end-site {
+        display: grid;
+        grid-template-columns: 21% 28% 19% 33%;
+        padding: 4% 2% 0
+    }
+    footer .recent div h5 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 2px 0 0 27%;
+        width: 77%
+    }
+    footer .recent div span {
+        padding: 0 0 0 28%
+    }
+}
+
+@media (max-width:990px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width: 100%
+    }
+    .first-div header {
+        display: grid;
+        z-index: 1000;
+        grid-template-columns: 76% 18%;
+        grid-gap: 42px;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        background: #000
+    }
+    .first-div .fristnav {
+        grid-column-gap: 0;
+        grid-template-columns: 90%
+    }
+    .first-div .fristnav .right {
+        display: none
+    }
+    .first-div header .left li:nth-child(1) {
+        display: flex
+    }
+    .fristnav .left a {
+        display: none
+    }
+    .first-div .img h3 {
+        width: 76%;
+        padding: 2% 0 0 2%
+    }
+    .first-div .img p {
+        width: 96%;
+        padding: 0 1% 2% 1%
+    }
+    .socil li {
+        padding: 11px 0
+    }
+    .sec-div ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 44% 49%;
+        padding: 10% 0 5% 4%
+    }
+    .sec-div ul li {
+        padding-top: 80px;
+        padding-right: 18%;
+        width: 100%
+    }
+    .price .one div strong {
+        color: var(--secand);
+        font-weight: bolder;
+        font-size: xxx-large;
+        padding: 35px 8px;
+        font-size: 60px;
+        line-height: 1
+    }
+    .about-us {
+        display: grid;
+        padding: 0 2% 36px
+    }
+    .motion img:nth-child(2) {
+        width: 250px;
+        top: 516%;
+        z-index: 5;
+        right: 33%;
+        position: absolute
+    }
+    .motion .fine {
+        top: 532%;
+        color: #deb887;
+        width: 20px;
+        font-size: 27px;
+        font-weight: 800;
+        right: 56%;
+        z-index: 15;
+        position: absolute
+    }
+    .OUR-MENU .all {
+        padding: 0 0 0 1%
+    }
+    .all p {
+        width: 46%;
+        padding: 0 0 0 10%
+    }
+    .all h3 {
+        width: 98%;
+        padding: 0 0 0 11%
+    }
+    .all ul {
+        display: grid;
+        grid-template-columns: 7% 18% 12% 18% 10% 15% 15%;
+        padding: 2% 0 0 3%
+    }
+    .all li {
+        padding-bottom: 30px;
+        width: fit-content;
+        padding: 0 1% 3% 0
+    }
+    .price {
+        padding: 4% 4% 6% 4%
+    }
+    .offer {
+        margin-top: 7%;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .offer .vid {
+        padding: 0 10%
+    }
+    .offer .all2 {
+        grid-template-columns: 100%
+    }
+    .offer .friday {
+        height: 35%;
+        margin-bottom: 43%
+    }
+    .our-clint {
+        grid-template-columns: 100%
+    }
+    .our-clint .pic {
+        background-size: cover;
+        padding: 15%
+    }
+    .our-clint .pic .small {
+        width: 64%;
+        z-index: 10;
+        padding: 41% 1% 7% 34%;
+        position: absolute
+    }
+    .client {
+        padding: 6% 0 0 7%;
+        width: 100%;
+        margin-left: 0;
+        background-image: url(https://xpressrow.com/html/cafenod/assets/images/backgrounds/bg_02.png)
+    }
+    .popular11 {
+        grid-template-columns: auto
+    }
+    .butt a .contactus {
+        float: none
+    }
+    .product1 {
+        grid-template-columns: 52% 52%
+    }
+    .product1 div .zeroo {
+        display: grid;
+        grid-template-columns: auto auto
+    }
+    .product1 .fa-heart {
+        width: 56px;
+        padding: 2% 2% 2% 5%;
+        margin: 2%;
+        background-color: inherit;
+        color: #000
+    }
+    .product1 .fa-share-alt {
+        float: right;
+        width: fit-content;
+        padding: 8% 6% 8% 58%;
+        margin: 2%;
+        background-color: inherit;
+        color: #000
+    }
+    .product1 div .zeroo a {
+        padding: 0 0 0 4px;
+        display: flex;
+        justify-content: end
+    }
+    .product1 div a img {
+        padding: 0 0
+    }
+    .news h3 {
+        padding: 0;
+        display: flex;
+        justify-content: center
+    }
+    .news .news1 {
+        display: grid;
+        grid-template-columns: 48% 48%
+    }
+    .news .news1 div {
+        padding: 2%
+    }
+    .news .news1 img {
+        width: 100%
+    }
+    .news .bli {
+        padding: 0 29%
+    }
+    footer p {
+        padding: 9% 0 4% 20%
+    }
+    footer input {
+        margin: 0 0 0 23%;
+        width: 38%
+    }
+    footer .end-site {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 4% 3% 0
+    }
+    footer .end-site div {
+        padding: 2%
+    }
+}
+
+@media (max-width:680px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width: 100%
+    }
+    .first-div header {
+        display: grid;
+        z-index: 1000;
+        grid-template-columns: 71% 22%;
+        grid-gap: 35px;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        background: #000
+    }
+    .first-div .fristnav {
+        grid-column-gap: 0;
+        grid-template-columns: 90%
+    }
+    .first-div .fristnav .right {
+        display: none
+    }
+    .first-div header .left li:nth-child(1) {
+        display: flex
+    }
+    .fristnav .left a {
+        display: none
+    }
+    .first-div .img h3 {
+        font-size: xx-large;
+        padding: 5% 0 0 2%
+    }
+    .first-div .img p {
+        width: 96%;
+        font-size: large;
+        padding: 0 1% 2% 1%
+    }
+    .img ul {
+        display: grid
+    }
+    .img ul li {
+        padding: 1%
+    }
+    .img ul li a button {
+        color: #fff;
+        background: #c7a17a;
+        height: 50px;
+        border-radius: 7px;
+        width: 121px
+    }
+    .socil {
+        width: 100%
+    }
+    .socil li {
+        padding: 11px 0
+    }
+    .clume1 {
+        display: grid;
+        grid-template-columns: auto
+    }
+    .clume1 .play-video {
+        color: #fff;
+        justify-content: end;
+        padding: 0 3%
+    }
+    .play-video {
+        display: flex;
+        width: 20%;
+        flex-direction: column
+    }
+    .sec-div ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 44% 49%;
+        padding: 10% 0 5% 4%
+    }
+    .sec-div ul li {
+        padding-top: 80px;
+        padding-right: 18%;
+        width: 100%
+    }
+    .sec-div ul {
+        grid-template-columns: auto
+    }
+    .motion img:nth-child(2) {
+        display: none
+    }
+    .motion .fine {
+        display: none
+    }
+    .all p {
+        width: 68%
+    }
+    .all h3 {
+        width: 97%;
+        font-size: 35px;
+        padding: 0 0 0 1%
+    }
+    .all ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 2% 0 0 6%
+    }
+    .offer .pic-coffee {
+        padding: 10% 2% 0 6px
+    }
+    .price .one {
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: auto auto
+    }
+    .table .table2 .fas {
+        width: 11%;
+        font-size: 21px;
+        padding: 3%;
+        margin: 1%;
+        margin-right: 8%
+    }
+    .product1 {
+        grid-template-columns: auto
+    }
+    .news h3 {
+        font-size: 38px
+    }
+    .news .news1 {
+        display: grid;
+        grid-template-columns: auto
+    }
+    .news .bli {
+        padding: 0 12%
+    }
+    footer p {
+        padding: 9% 8% 7% 14%
+    }
+    footer input {
+        margin: 0 0 0 10%;
+        width: 50%
+    }
+    footer .recent div span {
+        padding: 0 0 0 21%
+    }
+    footer .recent div h5 {
+        padding: 2px 0 0 21%
+    }
+    footer .end-site {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 4% 3% 0
+    }
+    footer .recent div span {
+        padding: 0 0 0 21%
+    }
+    footer .end {
+        padding: 8% 0 3% 7%
+    }
+}
